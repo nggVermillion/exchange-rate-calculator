@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 50vh;
+    text-align: center;
+}
+
+.container h1 {
+    color: rgb(92, 172, 92);
+}
+
+.selector {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.selector select,
+.selector h2 {
+    height: 4vh;
+}
+
+.selector select {
+    width: 6vh;
+    height: 3vh;
+    margin-left: 6vh;
+    margin-right: 15vh;
+}
+
+.selector h2 {
+    width: 2vh;
+    height: 3vh;
+    margin-right: 6vh;
+    margin-left: 15vh;
+}
+
+.swap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.swap button {
+    margin-left: 6vh;
+    margin-right: 11vh;
+    width: 6vh;
+    background-color: rgb(92, 172, 92);
+}
+
+.preview {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    margin-right: 6vh;
+    margin-left: 11vh;
+    width: 10vh;
+}
+
+.preview p,
+.preview span{
+    margin: 0.2vh;
+    font-size: 1.5vh;
+    color: rgb(92, 172, 92);
+}

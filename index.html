@@ -23,15 +23,18 @@
                 <option value="RMB">RMB</option>
             </select>
             <h2 class="amt-base">0</h2>
+        </div>
             <div class="swap">
                 <button class="swap-btn">Swap</button>
-                <p class="swap-preview">
-                    <p id="amt-base">0</p>
-                    <p id="cur-base">CHF</p>
-                     = 
-                    <p id="amt-change">0</p>
-                    <p id="cur-change">EUR</p>
-                </p>
+                <div class="preview">
+                    <p class="swap-preview">
+                        <p id="amt-base">0</p>
+                        <p id="cur-base">CHF</p>
+                        <span class="asdf">=</span>
+                        <p id="amt-change">0</p>
+                        <p id="cur-change">EUR</p>
+                    </p>
+                </div>
             </div>
             <div class="selector">
                 <select name="currency-two" id="final">
@@ -43,7 +46,6 @@
                 </select>
                 <h2 class="amt-final">0</h2>
             </div>
-        </div>
     </div>
 </body>
 <script src="app.js"></script>
