@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rate Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="logo" src="money.jpg" alt="money">
+        </div>
+        <h1>Exchange Rate Calculator</h1>
+        <p>Choose the currency and enter the amounts to get the exchange rate</p>
+        <div class="selector">
+            <select name="currency-one" id="base">
+                <option value="CHF">CHF</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="RUB">RUB</option>
+                <option value="RMB">RMB</option>
+            </select>
+            <h2 class="amt-base">0</h2>
+            <div class="swap">
+                <button class="swap-btn">Swap</button>
+                <p class="swap-preview">
+                    <p id="amt-base">0</p>
+                    <p id="cur-base">CHF</p>
+                     = 
+                    <p id="amt-change">0</p>
+                    <p id="cur-change">EUR</p>
+                </p>
+            </div>
+            <div class="selector">
+                <select name="currency-two" id="final">
+                    <option value="EUR">EUR</option>
+                    <option value="CHF">CHF</option>
+                    <option value="USD">USD</option>
+                    <option value="RUB">RUB</option>
+                    <option value="RMB">RMB</option>
+                </select>
+                <h2 class="amt-final">0</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
