@@ -15,9 +15,12 @@ body {
 }
 
 .selector {
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
 }
 
 .selector select,
@@ -26,17 +29,21 @@ body {
 }
 
 .selector select {
-    width: 6vh;
+    width: 8vh;
     height: 3vh;
     margin-left: 6vh;
     margin-right: 15vh;
 }
 
-.selector h2 {
-    width: 2vh;
-    height: 3vh;
-    margin-right: 6vh;
+.selector input {
+    position: absolute;
+    margin-right: 10vh;
+    text-align: right;
+    border: none;
+    direction: rtl;
+    height: 5vh;
     margin-left: 15vh;
+    font-size: 3vh;
 }
 
 .swap {
@@ -48,23 +55,7 @@ body {
 .swap button {
     margin-left: 6vh;
     margin-right: 11vh;
-    width: 6vh;
+    height: 3vh;
+    width: 5.5vh;
     background-color: rgb(92, 172, 92);
-}
-
-.preview {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    align-items: center;
-    margin-right: 6vh;
-    margin-left: 11vh;
-    width: 10vh;
-}
-
-.preview p,
-.preview span{
-    margin: 0.2vh;
-    font-size: 1.5vh;
-    color: rgb(92, 172, 92);
 }

@@ -20,21 +20,11 @@
                 <option value="USD">USD</option>
                 <option value="EUR">EUR</option>
                 <option value="RUB">RUB</option>
-                <option value="RMB">RMB</option>
             </select>
-            <h2 class="amt-base">0</h2>
+            <input id="amt-base" type="number" name="amount-base" value="0">
         </div>
             <div class="swap">
-                <button class="swap-btn">Swap</button>
-                <div class="preview">
-                    <p class="swap-preview">
-                        <p id="amt-base">0</p>
-                        <p id="cur-base">CHF</p>
-                        <span class="asdf">=</span>
-                        <p id="amt-change">0</p>
-                        <p id="cur-change">EUR</p>
-                    </p>
-                </div>
+                <button id="swap-button" class="swap-btn">Swap</button>
             </div>
             <div class="selector">
                 <select name="currency-two" id="final">
@@ -44,7 +34,7 @@
                     <option value="RUB">RUB</option>
                     <option value="RMB">RMB</option>
                 </select>
-                <h2 class="amt-final">0</h2>
+                <input id="amt-final" type="number" name="amount-final" value="0">
             </div>
     </div>
 </body>
